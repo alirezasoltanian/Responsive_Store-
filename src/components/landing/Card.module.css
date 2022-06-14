@@ -1,0 +1,88 @@
+
+.container {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 300px;
+  background-color: #D7A86E;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #702d12;
+  margin: 150px 0px 50px;
+  text-decoration: none;
+}
+
+.container img {
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  color: #702d12;
+  background-color:#a64b2a9e ;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+
+@keyframes changeColor {
+  to {filter: hue-rotate(90deg);}
+}
+
+.container h3 {
+  color: #702d12;
+  margin: 30px 20px 20px;
+}
+
+.container p {
+  margin: 0px 25px 20px;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  color: #702d12;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  border-top: 1px rgb(1, 109, 113) solid;
+}
+.counter img {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+}
+.counter span {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px inset;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.deactive {
+  opacity: 0.3;
+}
+.active{
+  cursor: pointer;
+}
+.imgUp {
+  cursor: pointer;
+}
+@media(max-width : 750px ) {
+  .container {
+    align-items: center;
+    margin: 10px 100px 50px 100px;
+  }
+  .container img{ 
+    width: 100%;
+    padding : 0px 0px 50px 0px;    
+  }
+  .counter img {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+  }
+}
