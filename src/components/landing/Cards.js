@@ -83,7 +83,7 @@ const Store = () => {
 
                 },
                 // when window width is >= 68px
-                1568: {
+                1468: {
                   slidesPerView: 5,
                   slidesPerGroup  : 5
                 },
